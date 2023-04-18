@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(82, 158, 119);
+}
+
+.app{
+    background: rgb(255, 255, 255);
+    max-width: 750px;
+    margin: 150px auto 0;
+    border-radius: 10px;
+    width: 90%;
+    padding: 28px;
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+
+.app h1{
+    color: rgb(80, 181, 120);
+    text-decoration:2px rgb(80, 181, 120) double underline ;
+    padding-bottom: 26px;
+    font-weight: 600;
+    border-bottom: 1px solid #1f1919;
+    font-size: 36px;
+    text-align: center;
+}
+
+.quiz{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.quiz h2{
+    font-weight: 600;
+    font-size: 23px;
+    color: rgb(80, 181, 120);
+}
+
+.btn{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+    width: 100%;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: left;
+    transition: 0.3s all;
+}
+
+.btn:hover:not([disabled]){
+    background-color: rgb(80, 181, 120);
+    color: white;
+}
+
+#next-btn{
+    background-color: rgb(80, 181, 120);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: 500;
+    margin: 20px auto 0;
+    display: none;
+    width: 140px;
+}
+
+#next-btn:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.correct{
+    background-color: #7adda5;
+}
+
+.wrong{
+    background-color: #e56d6d;
+}
+
+.gifs {
+    display: none;
+  }
+
+  
+.playagain{
+    background-color: rgb(80, 181, 120);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: 500;
+    margin: 20px auto 0;
+    width: 140px;
+    margin-left: 260px;
+    margin-right: 260px;
+  }
+
+.playagain:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+.giflist{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.giflist img{
+    max-width: 750px;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    width: 80%;
+}
+
+.begin-button{
+    background-color: rgb(80, 181, 120);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    padding: 8px;
+    font-weight: 500;
+    margin: 20px auto 0;
+    width: 140px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.begin-button:hover{
+    background-color: rgb(31, 31, 31);
+    color: white;
+}
+
+#questions{
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
