@@ -1,1 +1,1 @@
-This is a Simple Product Landing Page, created using Html and CSS.
+These are the projects I was assigned during my Web Development Internship at Sync-Intern's.
