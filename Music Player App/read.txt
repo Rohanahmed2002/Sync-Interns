@@ -1,0 +1,1 @@
+This is a Simple Music Player App created using Html, CSS and Javascript. It has features commonly found in music players such as play/pause button, next song, previous song, random song and replay song option.
