@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learn</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">   
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">  
+    <script src="script.js" defer></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="nav-scroll fixed-top mh-xss-mobile-nav">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="#">
+                    <img src="images/logo2.png" alt="" style="background-color: rgb(197, 239, 255);">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Books</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#course">Courses</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#tagline">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                        <li class="nav-item">
+                            <button id="signin-btn"  onclick="redirectToSignIn()">Sign In</button>
+
+                        </li>                            
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    
+       
+
+
+    <section class="header-section d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <div class="header-details">
+                        <h1>Education made easy <span>for everyone</span></h1>
+                        <p>Unlock Your Potential with Knowledge at Your Fingertips: Learn Anytime, Anywhere with E-Learn!</p>
+                        <button class="get-btn">Get Started</button>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12 ml-auto">
+                    <div class="header-image">
+                        <img src="images/study2.png" alt="" class="img-fluid" style="background-color: rgb(197, 239, 255);">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+   
+    <section class="cards-section sec-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="cards-inner">
+                        <img src="images/card1.jpg" alt="" class="img-fluid">
+                        <h5>600+ Topics</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="cards-inner">
+                        <img src="images/card2.png" alt="" class="img-fluid">
+                        <h5>3000+ Students</h5>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 col-sm-6">
+                    <div class="cards-inner">
+                        <img src="images/card3.jpg" alt="" class="img-fluid" class="card3">
+                        <h5>2000+ Tests</h5>
+                    </div>
+                </div>
+                                                            
+            </div>
+        </div>
+    </section> 
+   
+    <section class="course-section sec-padding" id="course">      
+        <div class="container">
+            <h2 class="text-center title-text">Online Courses</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <img src="images/python.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Introduction to Python</h5>
+                        <p class="card-text">Begineer</p>
+                        <button class="buy-btn">Buy Course</button>                  
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between">
+                            <div class="date d-flex">
+                                <img src="images/calendar.png" alt="">
+                                <h6>Starts on 2  April</h6>
+                            </div>
+                            <div class="date d-flex">
+                                <img src="images/people.png" alt="">
+                                <h6>100 seats</h6>
+                            </div>                            
+                        </div>
+                    </div>                
+                </div>
+                <div class="card">
+                    <img src="images/C++.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">C++ Fundamentals</h5>
+                        <p class="card-text">Begineer</p>
+                        <button class="buy-btn">Buy Course</button>                  
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between">
+                            <div class="date d-flex">
+                                <img src="images/calendar.png">
+                                <h6>Starts on 10 May</h6>
+                            </div>
+                            <div class="date d-flex">
+                                <img src="images/people.png">
+                                <h6>70 seats</h6>
+                            </div>                            
+                        </div>
+                    </div>                   
+                </div>
+                <div class="card">
+                    <img src="images/cyber.jpg" class="card-img-top">
+                    <div class="card-body">
+                        <h5 class="card-title">Cyber Security Basics</h5>
+                        <p class="card-text">Advanced</p>
+                        <button class="buy-btn">Buy Course</button>                  
+                    </div>
+                    <div class="card-footer">
+                        <div class="d-flex justify-content-between">
+                            <div class="date d-flex">
+                                <img src="images/calendar.png" alt="">
+                                <h6>Starts on 2 May</h6>
+                            </div>
+                            <div class="date d-flex">
+                                <img src="images/people.png" alt="">
+                                <h6>40 seats</h6>
+                            </div>                            
+                        </div>
+                    </div>                    
+                </div>
+            </div>
+        </div>
+    </section> 
+  
+    <section class="tagline-section sec-padding" id="tagline">      
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 d-flex align-items-center">
+                    <div class="tagline-details">
+                        <h2>Assisting people to learn and grow, in their dream careers!</h2>
+                        <p>Our mission is to empower individuals with the knowledge, skills,
+							 and resources needed to achieve their career aspirations and reach their full potential</p>
+                        <button class="get-btn">Start Learning</button> 
+                    </div>
+                </div>
+                <div class="col-md-6 ml-auto">
+                    <div class="tagline-image">
+                        <img src="images/vidpic.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>       
+    
+    <section class="testimonial-section sec-padding">      
+        <div class="container">
+            <h2 class="text-center title-text">Testimonial</h2>  
+            <div class="row">
+                <div class="col-md-9 mx-auto">
+                    <div class="testimonial-inner d-lg-flex justify-content-between">
+                        <img src="images/testimony.jpg" alt="" class="img-fluid">
+                        <p>"This e-learning website has been a game-changer for me. The platform is user-friendly, 
+							flexible, and offers a wide range of engaging courses.
+							 I've seen a significant improvement in my skills and confidence since using it. Highly recommended!"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> 
+    
+    <section class="teacher-section" id="teacher">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-lg-9 mx-auto">
+                    <div class="teacher-inner text-center">
+                        <h2>Want to be a teacher?</h2>
+                        <a href="mailto:abc@gmail.com" class="get-btn">Join With Us</a>                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+	<footer>
+		<div class="footer" id="footer">
+		<div class="follow">
+		  <p>Contact us</p>
+		  <div id="links" class="social-links">
+			<a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+			<a href="https://www.twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+		  </div>
+		</div>
+		<p>&copy; E-Learn. All Rights Reserved.</p>
+	</div>
+	  </footer>
+
+  
+</body>
+</html>
