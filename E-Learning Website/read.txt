@@ -1,1 +1,1 @@
-This is an E-Learning Website created using Html and CSS
+This is an E-Learning Website created using Html, CSS and Javascript.
